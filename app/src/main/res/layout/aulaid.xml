@@ -4,17 +4,33 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <Button
-        android:id="@+id/btnProxima"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Próxima Tela"/>
-
     <EditText
-        android:id="@+id/editValor"
+        android:id="@+id/editNota1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Digite um valor"
+        android:hint="Digite uma nota P1"
         android:inputType="number" />.
+
+    <EditText
+        android:id="@+id/editNota2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite uma nota P2"
+        android:inputType="number" />.
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calcular Média"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/txtResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="50sp"
+        android:textAlignment="center"/>
+
 
 </LinearLayout>
